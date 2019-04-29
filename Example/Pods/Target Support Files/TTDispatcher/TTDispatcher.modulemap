@@ -1,0 +1,6 @@
+framework module TTDispatcher {
+  umbrella header "TTDispatcher-umbrella.h"
+
+  export *
+  module * { export * }
+}

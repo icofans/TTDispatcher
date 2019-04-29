@@ -1,0 +1,16 @@
+PODS:
+  - TTDispatcher (0.1.0)
+
+DEPENDENCIES:
+  - TTDispatcher (from `../`)
+
+EXTERNAL SOURCES:
+  TTDispatcher:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TTDispatcher: 1d040efebaf330718d180e0bcb68cf813af7f2a0
+
+PODFILE CHECKSUM: 68277733ea4a2952653742dc235b6bff0a0bdaba
+
+COCOAPODS: 1.5.3

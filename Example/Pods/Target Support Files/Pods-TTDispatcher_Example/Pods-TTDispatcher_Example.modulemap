@@ -1,0 +1,6 @@
+framework module Pods_TTDispatcher_Example {
+  umbrella header "Pods-TTDispatcher_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

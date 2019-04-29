@@ -13,8 +13,6 @@
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* TTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* TTAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* TTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* TTViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -23,6 +21,10 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		F717BA902276DB1F00DE0498 /* TTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F717BA882276DB1B00DE0498 /* TTViewController.m */; };
+		F717BA912276DB1F00DE0498 /* TTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F717BA892276DB1B00DE0498 /* TTAppDelegate.m */; };
+		F717BA922276DB1F00DE0498 /* TTMainModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F717BA8C2276DB1D00DE0498 /* TTMainModule.m */; };
+		F717BA932276DB1F00DE0498 /* TTTestModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F717BA8E2276DB1F00DE0498 /* TTTestModule.m */; };
 		FCA2BD85BEED689C96F4A1FD /* Pods_TTDispatcher_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E49162810651837D2C1F21 /* Pods_TTDispatcher_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1014602B5C7E8D9717F6185F /* TTDispatcher.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TTDispatcher.podspec; path = ../TTDispatcher.podspec; sourceTree = "<group>"; };
+		1014602B5C7E8D9717F6185F /* TTDispatcher.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TTDispatcher.podspec; path = ../TTDispatcher.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5F94B50DA8DA5E87440A54A3 /* Pods-TTDispatcher_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTDispatcher_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTDispatcher_Example/Pods-TTDispatcher_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TTDispatcher_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTDispatcher_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,10 +49,6 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* TTDispatcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TTDispatcher-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* TTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* TTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* TTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* TTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* TTDispatcher_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTDispatcher_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -58,7 +56,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		662FB357EBE2C24B1E772952 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		662FB357EBE2C24B1E772952 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7827BC7DD08B8C04CA7A2F6F /* Pods_TTDispatcher_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTDispatcher_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8441255A46862325AC5933F0 /* Pods-TTDispatcher_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTDispatcher_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTDispatcher_Tests/Pods-TTDispatcher_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -66,7 +64,15 @@
 		9F1FBE220F5F34D25C54333A /* Pods-TTDispatcher_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTDispatcher_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTDispatcher_Example/Pods-TTDispatcher_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A1E49162810651837D2C1F21 /* Pods_TTDispatcher_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTDispatcher_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44602C28560BFF87F91C145 /* Pods-TTDispatcher_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTDispatcher_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTDispatcher_Tests/Pods-TTDispatcher_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DDE8CBC83599E0DBE7FBA3B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DDE8CBC83599E0DBE7FBA3B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F717BA882276DB1B00DE0498 /* TTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTViewController.m; sourceTree = "<group>"; };
+		F717BA892276DB1B00DE0498 /* TTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAppDelegate.m; sourceTree = "<group>"; };
+		F717BA8A2276DB1C00DE0498 /* TTTestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTestModule.h; sourceTree = "<group>"; };
+		F717BA8B2276DB1D00DE0498 /* TTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTViewController.h; sourceTree = "<group>"; };
+		F717BA8C2276DB1D00DE0498 /* TTMainModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMainModule.m; sourceTree = "<group>"; };
+		F717BA8D2276DB1E00DE0498 /* TTMainModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMainModule.h; sourceTree = "<group>"; };
+		F717BA8E2276DB1F00DE0498 /* TTTestModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTestModule.m; sourceTree = "<group>"; };
+		F717BA8F2276DB1F00DE0498 /* TTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAppDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,11 +138,15 @@
 		6003F593195388D20070C39A /* Example for TTDispatcher */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* TTAppDelegate.h */,
-				6003F59D195388D20070C39A /* TTAppDelegate.m */,
+				F717BA8F2276DB1F00DE0498 /* TTAppDelegate.h */,
+				F717BA892276DB1B00DE0498 /* TTAppDelegate.m */,
+				F717BA8D2276DB1E00DE0498 /* TTMainModule.h */,
+				F717BA8C2276DB1D00DE0498 /* TTMainModule.m */,
+				F717BA8A2276DB1C00DE0498 /* TTTestModule.h */,
+				F717BA8E2276DB1F00DE0498 /* TTTestModule.m */,
+				F717BA8B2276DB1D00DE0498 /* TTViewController.h */,
+				F717BA882276DB1B00DE0498 /* TTViewController.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* TTViewController.h */,
-				6003F5A6195388D20070C39A /* TTViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -367,9 +377,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* TTAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* TTViewController.m in Sources */,
+				F717BA922276DB1F00DE0498 /* TTMainModule.m in Sources */,
+				F717BA932276DB1F00DE0498 /* TTTestModule.m in Sources */,
+				F717BA902276DB1F00DE0498 /* TTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				F717BA912276DB1F00DE0498 /* TTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
