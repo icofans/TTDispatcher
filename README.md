@@ -1,29 +1,14 @@
-# TTDispatcher
+# AppDelegate模块化解藕组件
 
-[![CI Status](https://img.shields.io/travis/icofans/TTDispatcher.svg?style=flat)](https://travis-ci.org/icofans/TTDispatcher)
-[![Version](https://img.shields.io/cocoapods/v/TTDispatcher.svg?style=flat)](https://cocoapods.org/pods/TTDispatcher)
-[![License](https://img.shields.io/cocoapods/l/TTDispatcher.svg?style=flat)](https://cocoapods.org/pods/TTDispatcher)
-[![Platform](https://img.shields.io/cocoapods/p/TTDispatcher.svg?style=flat)](https://cocoapods.org/pods/TTDispatcher)
+## 思路
+1.通过运行时对UIApplication类进行hook，在交换的setDelegate方法中去交换appdelegate的23个方法，并指定一个类去处理交换后的方法。
 
-## Example
+2.在处理delegate方法的类，对已注册事件的module进行事件派发
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+3.在Appdelegate维护需要注册的module，之后需要使用的module就可以直接使用Appdelegate的事件了。
 
-## Requirements
-
-## Installation
-
-TTDispatcher is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+## 使用
 
 ```ruby
 pod 'TTDispatcher'
 ```
-
-## Author
-
-icofans, 565057208@qq.com
-
-## License
-
-TTDispatcher is available under the MIT license. See the LICENSE file for more info.
